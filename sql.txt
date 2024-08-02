@@ -1,0 +1,19 @@
+-- Daniel-AvN
+
+CREATE TABLE usuarios (
+	user_id INT PRIMARY KEY AUTO_INCREMENT,
+    real_name VARCHAR(50),
+    username VARCHAR(30),
+    password CHAR(10)
+);
+
+
+CREATE TABLE usuarios (
+  user_id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  real_name varchar(50) DEFAULT NULL,
+  username varchar(30) DEFAULT NULL,
+  password char(10) DEFAULT NULL
+) ;
+
+
+INSERT INTO usuarios (real_name,username,password) VALUES ('manchas','manchin','123');
